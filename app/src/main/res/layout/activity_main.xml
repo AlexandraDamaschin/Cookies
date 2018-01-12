@@ -4,7 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#B388FF"
+        android:background="#004632"
         android:orientation="vertical"
         tools:context=".MainActivity">
 
@@ -14,28 +14,30 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:scaleType="centerCrop"
-            android:src="@drawable/before_cookie"
-            android:text="hello_world" />
+            android:src="@drawable/before_cookie" />
 
         <TextView
             android:id="@+id/status_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="72dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
-            android:text="I'm so hungry"
+            android:text="I'm so hungry!"
             android:textColor="@android:color/black"
             android:textSize="34sp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
             android:padding="10dp"
             android:textAlignment="center"
             style="?android:attr/borderlessButtonStyle"
             android:text="Eat cookie"
-            android:onClick="eatCookie" />
+            android:onClick="eatCookie"
+            android:textSize="34sp"/>
 
     </LinearLayout>
