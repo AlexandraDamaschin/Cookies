@@ -1,5 +1,2 @@
-
-Cookies
-=======
 # Cookies
 Android
